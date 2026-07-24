@@ -1,8 +1,16 @@
 aid: cloudtrucks
 name: CloudTrucks
-description: 'CloudTrucks is a company surfaced as a portfolio company of craft-ventures, kindred-ventures,
-  menlo-ventures and added to the API Evangelist network as a stub for enrichment. Sector: marketplace.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'CloudTrucks (operated by Cloud Technologies, Inc.) is a San Francisco-based
+  virtual trucking carrier and business-management platform for owner-operators and
+  small trucking fleets. The platform aggregates freight loads from more than fifty
+  brokers and shippers into a single app, and layers on load booking, dispatching,
+  real-time tracking, instant pay on proof of delivery, invoicing, factoring, fuel
+  discounts (FuelApp), insurance, and back-office financial tooling so independent
+  drivers can run their business from a phone. CloudTrucks also operates Exchange for
+  shippers and brokers plus a freight-agent program, and is backed by Craft Ventures,
+  Kindred Ventures and Menlo Ventures. CloudTrucks does not publish a public developer
+  API or documentation portal; this profile captures its public web, legal, support
+  and mobile-app surface plus a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/cloudtrucks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +20,31 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/5f6e963f3919ef665655adb0/6137c86b85b79aadd5678bd8_CloudTrucks_open_graph.png
 tags:
 - Company
 - Marketplace
+- Trucking
+- Freight
+- Logistics
+- Transportation
+- Supply Chain
+- Fleet Management
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +53,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cloudtrucks.com
+  url: https://www.cloudtrucks.com
+- type: SignUp
+  url: https://app.cloudtrucks.com/#/registration/
+- type: Login
+  url: https://app.cloudtrucks.com/#/signin/
+- type: Pricing
+  url: https://www.cloudtrucks.com/pricing
+- type: Blog
+  url: https://www.cloudtrucks.com/blog/featured
+- type: Support
+  url: https://cloudtrucks.zendesk.com/hc/en-us
+- type: HelpCenter
+  url: https://cloudtrucks.zendesk.com/hc/en-us
+- type: TermsOfService
+  url: https://www.cloudtrucks.com/terms
+- type: PrivacyPolicy
+  url: https://www.cloudtrucks.com/privacy
+- type: DomainSecurity
+  url: security/cloudtrucks-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
